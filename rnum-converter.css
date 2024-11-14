@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    --brown-color: #581908fa;
+    --light-color: #E8EDDF;
+    --blue-color: #CFDBD5;
+    --orange-color: #F5CB5C;
+  }
+  body {
+    background-color: var(--brown-color);
+    font-family: Arial;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  #header {
+    font-size: 30px;
+    text-align: center;
+    color: var(--light-color);
+  }
+  
+  #label {
+    color: var(--light-color);
+    padding: 1rem;
+    margin: auto;
+    display: grid;
+    text-align: center;
+  }
+  #number {
+    border: 2px solid var(--blue-color);
+    border-radius: 5px;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 200;
+    padding: .5rem;
+    margin: 1rem;
+  }
+  #number:focus {
+    outline: 3px solid var(--blue-color);
+  }
+  #convert-btn {
+    background-color: var(--orange-color);
+    color: var(--brown-color);
+    cursor: pointer;      
+    border: hidden;
+    border-radius: 5px;
+    height: 30px;
+    padding: .5rem;
+  }
+  #convert-btn:hover {
+    background-color: var(--blue-color);
+    padding: .54rem;
+  }
+  #output {
+    color: var(--light-color);
+  }

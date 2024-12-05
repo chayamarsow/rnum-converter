@@ -30,7 +30,6 @@ function checkInput() {
 };
 
 const count = (input) => {
-  console.log(input);
   if (input >= 1000) {
     count(input - 1000);
     answer.push("M");
@@ -73,6 +72,5 @@ const count = (input) => {
   } else {
     return "0";
   }
-  console.log(answer);
   return;
 };
